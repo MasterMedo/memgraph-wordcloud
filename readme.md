@@ -22,7 +22,7 @@ Check out the implementation in `scraper.py`.
 ## creating a mask
 black & white | colourful
 :-------------------------:|:-------------------------:
-![](./img/base/logo-fat-mask.png) | ![](./img/base/m-fat-gradient.png)
+![](./img/1920x1080/base/logo-fat-mask.png) | ![](./img/1920x1080/base/m-fat-gradient.png)
 Create by fitting the logo to the center of the image with [gimp](https://www.gimp.org), selecting alpha to selection on the layer and growing it by a couple of pixels. | Create by fitting the logo to the center of the image with [gimp](https://www.gimp.org) and then [dilate](https://legacy.imagemagick.org/Usage/morphology/#dilate) it with [imagemagick](https://imagemagick.org).
 
 ## colourize
